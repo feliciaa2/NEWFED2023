@@ -1,0 +1,197 @@
+
+body{
+  background-color: var(--sectioncolor-background);
+  margin: 0em;
+}
+/* high contrast mode aanpassingen voor tweede pagina */
+body.highContrastMode article:nth-child(1) {
+  background-color: var( --HCbackground);
+}
+body.highContrastMode h1 { 
+  color: var( --HCtext);
+  background-color: var( --HCbackground);
+}
+body.highContrastMode article:nth-of-type(1) a {
+  background-color:var( --HCtext);
+  color: var( --HCbackground);
+}
+
+body.highContrastMode article:nth-of-type(1) p:nth-of-type(3), body.highContrastMode h3, body.highContrastMode article:nth-of-type(5) ol li {
+  color: var( --HCtext);
+}
+
+body.highContrastMode h2 {
+  background-color: var(--HCtitels);
+  color: var( --HCbackground);
+  padding: 0.25em;
+
+}
+
+body.highContrastMode section h2 {
+  background-color: var( --HCsections);
+  color: var( --HCtext);
+}
+
+body.highContrastMode footer h2, body.highContrastMode section  {
+  background-color: var(--HCsections) ;
+  color: var( --HCtext);
+  padding: 0em;
+  border-radius: 0em;
+}
+
+body.highContrastMode article{
+  background-color:  var( --HCbackground);
+}
+
+/* ----MAIN TWEEDE PAGINA ARTICLE */
+
+h1 {
+  margin: 0.5em;
+  margin-bottom: 0.2em;
+  font-size: 2em;
+  margin-left: 0em;
+}
+
+h2 {
+  margin: 0em;
+  font-size: 1.5em;
+
+}
+
+h3 {
+  margin-bottom: 0em;
+}
+
+h1, h2{
+  text-align: left;
+  line-height: 1.2em;
+  /* header fonts */
+  font-family: 'Zilla Slab', serif;
+  color: var(--Hoofdkopjes);
+    }
+
+
+h3, li {
+  color: var(--color-text);
+  font-size: 1em;
+  font-family: 'Saira', sans-serif;
+  font-family: 'Zilla Slab', serif;
+}
+
+p{
+  font-size: 0.8em;
+  color: var(--color-text);
+}
+
+a {
+  color: var(--Hoofdkopjes);
+  text-decoration: none;
+  font-family: 'Saira', sans-serif;
+  font-family: 'Zilla Slab', serif;
+  font-size: 0.8em;
+}
+
+main a {
+  background-color: #9b3638;
+  color: var(--whitetextdarkmode);
+  padding: 0.5em;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+
+main a:hover {
+  background: var(--hoverbuttonbg);  
+  box-shadow: 0.1em 0.1em 0.1em var(--shadows); 
+}
+
+main a:active {
+  background: var(--hoverbuttonbg);  
+  box-shadow: inline 0.1em 0.1em 0.1em var(--shadows); 
+}
+   
+
+article img  {
+    width: 21em;
+    border: var(--menucolor) solid 0.8em;
+    border-radius: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+article {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+article:nth-of-type(1) {
+  display: flex;
+}
+
+article:nth-of-type(1) a {
+    order: -1;
+    background-color: var(--buttonbackg);
+    padding: 1em;
+    height: 2em;
+    width: 6em;
+    color: var(--sectioncolor-background);
+    text-decoration: none;
+    border-radius: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-family: 'Saira', sans-serif;
+    font-family: 'Zilla Slab', serif;
+}
+
+article:nth-of-type(1) a:hover {
+  box-shadow: 0.1em 0.1em 0.1em var(--shadows);
+}
+
+article:nth-of-type(1) a:active {
+  box-shadow: inset 0.1em 0.1em 0.1em var(--shadows);
+}
+
+article:nth-of-type(1) p:nth-of-type(3) {
+  order: -1;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  align-content: center;
+  margin-left: 10.6em ;
+  font-size: 0.9em;
+  font-weight: 500;
+  color: var(--color-text);
+
+}
+
+section  {
+  margin: 0em;
+  background-color: var(--footerbackground);
+}
+
+section h2 {
+  padding: 0.5em;
+  padding-top: 1em;
+  color: var(--color-text);
+}
+
+section p {
+  margin: 1.5em;  
+  padding-bottom: 1.5em;
+  font-size: 0.7em;
+}
+
+article footer p {
+  margin-top: 2em;
+
+}
+
+
+article footer  {
+  padding: 0em;
+
+}
+
