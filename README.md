@@ -22,7 +22,7 @@ Felicia Augustine
 Blauwe piste 
 
   #### Je focus:
-Surface
+Surface plane
 
 </details>
 
@@ -37,7 +37,7 @@ Surface
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
-https://animalcrossing.nintendo.com/new-horizons/explore/
+   https://animalcrossing.nintendo.com/new-horizons/explore/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
 Explore
@@ -45,7 +45,7 @@ Explore
 
   #### Screenshot(s) van de tweede pagina (small screen):
 Artikelen
-  <img src="./readme-images/" width="375px" alt="de artikel pagina van de website">
+  <img src="./readme-images/islandnews.png" width="375px" alt="de artikel pagina van de website">
  
 </details>
 
@@ -90,7 +90,7 @@ Wat zijn onze bevindingen?
 - er is geen dark mode en geen high contrast mode!!
 
 Extra over de artikel pagina.
-- De artikel pagina is voor zowel mensen met een beperking en zonder beperking moeilijk om te navigeren en te lezen. Links en titels(h1,H2,H3) hebben dezelfde kleur. er zijn meerdere links die allemaal naar dezelfde pagina lijden en dit niet goed aangeven. 
+- De artikel pagina is voor zowel mensen met een beperking en zonder beperking moeilijk om te navigeren en te lezen. Links en titels(h1,H2,H3) en alineas hebben dezelfde kleur. er zijn meerdere links die allemaal naar dezelfde pagina lijden en dit niet goed aangeven. 
 - Bepaalde tekst die in de footer hoort (*blablabla) zit meteen onder de tekst waardoor het moeilijk te lezen is. Het is vooral een lap tekst waar je moeilijk uit kan halen wat het belangrijkste op de pagina is.
 
 
@@ -108,7 +108,10 @@ Extra over de artikel pagina.
 
    <img src="./readme-images/breakdowns3chets-100.jpg" width="375px" alt="breakdown van de hele artikel pagina.">
 
-  ### dynamisch deel van pagina: 
+
+  ### dynamisch deel (bijv menu): 
+  <img src="readme-images/menusmenus-100.jpg" width="375px" alt="breakdown van een dynamisch deel">
+
 
 
 </details>
@@ -237,14 +240,6 @@ Appearence
 - Er is nu wel een dark/light mode en highcontrast mode
 <img src="./readme-images/darkmode.png" width="375px" alt="voorbeeld van darkmode op de website">
 
-
-Foto's van de WCAG CHECKLIST
-<img src="./readme-images/" width="375px" alt="Pagina 1 WCAG CHECKLIST">
-<img src="./readme-images/" width="375px" alt="Pagina 2 WCAG CHECKLIST">
-<img src="./readme-images/" width="375px" alt="Pagina 3 WCAG CHECKLIST">
-<img src="./readme-images/" width="375px" alt="Pagina 4 WCAG CHECKLIST">
-<img src="./readme-images/" width="375px" alt="Pagina 5 WCAG CHECKLIST">
-
 </details>
 
 ## Voortgang 3 (week 4)
@@ -294,21 +289,26 @@ Foto's van de WCAG CHECKLIST
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/finaleerstepagina.png" width="375px" alt="uitomst opdracht pagina 1">
+
+  <img src="readme-images/artikelen.png" width="375px" alt="uitomst opdracht pagina 2">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+Het leukste wat ik geleerd heb is het maken van de highcontrast mode, darkmode en reduce motion functie met de media query. Er zijn zoveel verschillende mogelijkheden. Het lijkt me leuk om op een verder itteratie ook nog een kerst thema toe te voegen waarbij er confetti en muziek word afgespeeld.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+ Ik ben ook echt veel beter geworden in het gebruikem van css selectoren zoal nth-of-type etc. hier was ik eerst heel slecht in, maar ik denk dat ik het nu (bijna) volledig begrijp!
+
+
+  <img src="readme-images/highcontrastmode.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-Het is mij uiteindelijk helaas niet gelukt op het menu tab probleem op te lossen, wat best een groot probleem is voor accsesability. Nu zie je als gebruiker niet waar de tab naar toe is gegaan omdat het naar het hidden menu is gesprongen. heel jammer 
+Wat mij helaas niet is gelukt is om de transitions te kunnen uitschakelen bij het drukken van de reduce motions button. Ik heb verschillende methodes geprobeert, maar ik kwam er helaas niet uit. Dit zou ik voor een verdere itteratie wel willen laten werken.
 
- <video controls width="350">
-	  <source src="./videos/misluktmenu.mov"/>
-	</video>
+Ook is het niet gelukt om de video controls focus stijl te veranderen, Gelukkig is dit niet heel erg want je kunt het nogsteeds zien, maar het past niet bij de stijl van de website. 
+  <img src="./readme-images/focusstylevideo.png" width="375px" alt="top">
+
 </details>
 
 
@@ -321,9 +321,9 @@ Het is mij uiteindelijk helaas niet gelukt op het menu tab probleem op te lossen
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  Bron images:
+  Bron alle images:
   https://animalcrossing.nintendo.com/new-horizons/explore/
-  
+
   Achtergrond website
   https://steamcommunity.com/sharedfiles/filedetails/?id=2210729580
 

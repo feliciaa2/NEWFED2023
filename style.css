@@ -9,13 +9,30 @@ body {
 	animation-fill-mode: both;
 }
 
+@keyframes backgroundmove {
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 35% 55%;
+  }
+  100% {
+  background-position: 0%;
+  }
+   }
+
 body.reduceMotion{
   margin: 0;
 	background-image: url(./images/Exploreimgs/backgroundacnh.jpeg); 
 	animation-duration: 0s;
-  animation-iteration-count:none;
-	animation-fill-mode: none;
+  animation-iteration-count:0;
+  animation-duration: 0s;
 }
+/* ------------------------CHRISTMAS THEME YEY--------------------------- */
+
+
+
+
 
 /* ...................tweede deel = MAIN ...................... */
 

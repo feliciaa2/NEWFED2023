@@ -6,8 +6,6 @@ var menuButton = document.querySelector("header nav:nth-child(1) ul+ul button");
 var navigatie = document.querySelector("header nav+nav")
 menuButton.onclick = toonMenu;
 
-
-
 // reduce motion button
 var reduceButton = document.querySelector("nav ul:nth-child(2) li:nth-child(3) button");
 var bodychange = document.querySelector("body")

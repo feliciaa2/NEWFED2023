@@ -24,7 +24,6 @@ box-sizing:border-box;
   --hoverbackg: rgb(241, 241, 241);
   --hoverbuttonbg: rgb(203, 49, 62);
   --hoverHCbutton: rgb(107, 92, 67);
-  --hoverRMbutton: ;
   --whitetextdarkmode: white;
   --shadows: black;
   --focusstyle: rgb(231, 183, 25);
@@ -39,6 +38,7 @@ box-sizing:border-box;
   --HCborders: #f1e170;
 
   /* font smoothing website */
+  /* bron:  https://animalcrossing.nintendo.com/new-horizons/explore/ */
   -webkit-font-smoothing: antialiased;
 	/* Main Font */
 	font-family: 'Libre Franklin', sans-serif;
@@ -79,11 +79,19 @@ color: black;
 
 /* Reduce motion */
 @media (prefers-reduced-motion) {
-   body {
+  body {
 	margin: 0;
-	background-image: url(./images/Exploreimgs/backgroundacnh.jpeg); 
-	animation-duration: 0s;
+  animation-duration: 0s;
+  transition: 0s;
+  
 	}
+    
+}
+
+/* reduce motion button */
+body.reduceMotion{
+  margin: 0;
+  animation-duration: 0s;
 }
 
 /* high contrast mode  */
@@ -91,7 +99,6 @@ color: black;
 body.highContrastMode {
   background-color: var(--HCbackground);
   background-image: none;
-
 }
 
 body.highContrastMode h1  {
@@ -133,24 +140,33 @@ body.highContrastMode footer a:nth-of-type(7):hover, body.highContrastMode a:nth
 body.highContrastMode footer a {
   color: var(--HCtext); 
 }
+
+
+/* ---------- scroll animatie maken---------- */
+
+
+main h1, article, main video, img {
+animation-name: popup;
+animation-duration: 2.5s;
+transition: 1s;
+}
+
+@keyframes popup{
+0%{ 
+  opacity: 0; transform: scale(0.9);
+
+}
+100%{
+  opacity: 1; transform: scale(1);
+}
+}
+
 /* ...................eerste deel = navigatie ...................... */
   
 header nav img {
   max-width: 3em;
 }
   
-@keyframes backgroundmove {
-0% {
-	background-position: 0%;
-}
-50% {
-	background-position: 35% 55%;
-}
-100% {
-background-position: 0%;
-}
- }
-
 
 header nav:first-of-type ul {
 	list-style: none;
@@ -231,9 +247,9 @@ header nav+nav {
   align-items: center;
   text-align: center;
   flex-direction: column;  
-  font-family: 'Saira', sans-serif;
   font-family: 'Zilla Slab', serif;
   color: var(--color-text);
+  visibility: hidden;
 }
   
 header nav+nav a {
@@ -258,6 +274,7 @@ header nav+nav a:active {
 header nav+nav.toonMenu {
 	translate: 0% 0%; 
 	transition: 1s;   
+  visibility: visible;
 }
 
 
